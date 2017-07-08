@@ -1,0 +1,27 @@
+1. create virtual environment
+
+python3 -m venv myvenv
+
+2. create project
+myvenv\Scripts\django-admin.exe startproject tutorial
+
+
+3. create app accounts
+myvenv\Scripts\django-admin.exe startapp accounts
+
+4. update url,py , views.py create welcome home
+
+5 add to git
+    git init
+    create .gitignore and add
+*.pyc
+*~
+.idea
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
+
+    git add -all
+    git commit -m "first commit"
