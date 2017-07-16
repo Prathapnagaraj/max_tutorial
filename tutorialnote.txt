@@ -25,3 +25,14 @@ db.sqlite3
 
     git add -all
     git commit -m "first commit"
+    git remote add origin https://github.com/Prathapnagaraj/max_tutorial
+    git push -u origin master
+6. create database table
+    python manage.py runserver
+7. create admin user
+    python manage.py createsuperuser
+8. create database and do migration
+    update models.py register in to admin
+    python manage.py makemigrations
+    python manage.py migrate
+
